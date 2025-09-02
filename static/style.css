@@ -72,10 +72,12 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(150deg, #6690ea 0%, #4879e2 100%);
-    color: white;
+    background: white;
+    color: black;
     padding: 80px 20px;
     text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .hero-container {
@@ -108,23 +110,30 @@ body {
 
 .main-item {
     padding: 1rem;
+    border: 2px black solid;
+    background: white;
 }
 
 .map-container {
-    background: white;
     grid-row: 1 / 8;
     grid-column: 1 / 8;
 }
 
 .feature-container {
-    background: red;
     grid-row: 1 / 8;
     grid-column: 8 / 11;
 }
 
 .prediction-container {
-    background: orange;
-    height: 100px;
     grid-row: 8 / 11;
     grid-column: 1 / 11;
+}
+
+.footer-section {
+    background: white;
+    color: black;
+    padding: 80px 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
