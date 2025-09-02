@@ -98,26 +98,33 @@ body {
     margin-right: auto;
 }
 
-.main-content {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 10px;
+.main-section {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 50px);
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.main-item {
+    padding: 1rem;
 }
 
 .map-container {
-    flex: 0 0 70.00%;
-    height: 600px;
     background: white;
+    grid-row: 1 / 8;
+    grid-column: 1 / 8;
 }
 
 .feature-container {
-    flex: 0 0 30.00%;
     background: red;
+    grid-row: 1 / 8;
+    grid-column: 8 / 11;
 }
 
 .prediction-container {
-    flex: 0 0 100.00%;
     background: orange;
     height: 100px;
+    grid-row: 8 / 11;
+    grid-column: 1 / 11;
 }
