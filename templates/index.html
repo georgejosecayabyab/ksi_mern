@@ -28,11 +28,19 @@
 
     <!-- Main Section -->
     <main class="main-section">
-        <div class="main-item map-container">
+        <div class="main-item map-container" id="map-container">
             map
         </div>
         <div class="main-item feature-container">
             feature
+            <!-- <form class="feature-form">
+                <label for="x">X:</label>
+            <input type="text" id="x" placeholder="Enter X coordinate">
+
+            <label for="y">Y:</label>
+            <input type="text" id="y" placeholder="Enter Y coordinate">
+            </form> -->
+            <div id="coord-display">X: 0, Y: 0</div>
         </div>
         <div class="main-item prediction-container">
             prediction
@@ -41,8 +49,9 @@
 
     <!--footer section-->
     <footer class="footer-section">
-        <div class="footer-container">
-            <p class="footer-text">© 2024 KSI MERN. All rights reserved.</p>
-        </div>
+        © 2024 KSI MERN. All rights reserved.
     </footer>
+
+    <script src="../static/script.js"></script>
 </body>
+</html>

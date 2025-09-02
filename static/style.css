@@ -112,11 +112,13 @@ body {
     padding: 1rem;
     border: 2px black solid;
     background: white;
+    border-radius: 10px;
 }
 
 .map-container {
     grid-row: 1 / 8;
     grid-column: 1 / 8;
+    cursor: pointer;
 }
 
 .feature-container {
@@ -136,4 +138,8 @@ body {
     text-align: center;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+}
+
+.feature-form {
+    display: grid;
 }
